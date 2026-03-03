@@ -1,0 +1,18 @@
+@import "../styles/skins/modern-saas.css";
+@import "../styles/skins/all-skins.css";
+/* @import "../styles/skins/warm-friendly.css"; */
+/* @import "../styles/skins/dark-technical.css"; */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

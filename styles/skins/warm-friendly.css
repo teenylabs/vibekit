@@ -1,0 +1,83 @@
+/*
+ * VibeKit Skin: Warm & Friendly
+ * Approachable, consumer-friendly aesthetic
+ * Amber/orange primary, warmer grays, 0.75rem radius, rounded and playful
+ */
+
+:root {
+  --background: 30 25% 99%;
+  --foreground: 20 14% 12%;
+
+  --card: 30 20% 100%;
+  --card-foreground: 20 14% 12%;
+
+  --popover: 30 20% 100%;
+  --popover-foreground: 20 14% 12%;
+
+  --primary: 38 92% 50%;
+  --primary-foreground: 20 14% 12%;
+
+  --secondary: 30 20% 94%;
+  --secondary-foreground: 20 14% 12%;
+
+  --muted: 30 15% 94%;
+  --muted-foreground: 20 10% 44%;
+
+  --accent: 30 20% 94%;
+  --accent-foreground: 20 14% 12%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --success: 142 76% 36%;
+  --success-foreground: 0 0% 100%;
+
+  --warning: 25 95% 53%;
+  --warning-foreground: 20 14% 12%;
+
+  --border: 30 18% 82%;
+  --input: 30 18% 82%;
+  --ring: 38 92% 50%;
+
+  --radius: 0.75rem;
+  --sidebar-width: 16rem;
+}
+
+.dark {
+  --background: 20 14% 10%;
+  --foreground: 30 20% 96%;
+
+  --card: 20 14% 12%;
+  --card-foreground: 30 20% 96%;
+
+  --popover: 20 14% 12%;
+  --popover-foreground: 30 20% 96%;
+
+  --primary: 38 92% 50%;
+  --primary-foreground: 20 14% 12%;
+
+  --secondary: 20 12% 18%;
+  --secondary-foreground: 30 20% 96%;
+
+  --muted: 20 12% 18%;
+  --muted-foreground: 30 10% 58%;
+
+  --accent: 20 12% 18%;
+  --accent-foreground: 30 20% 96%;
+
+  --destructive: 0 63% 31%;
+  --destructive-foreground: 30 20% 96%;
+
+  --success: 142 71% 45%;
+  --success-foreground: 30 20% 96%;
+
+  --warning: 25 95% 53%;
+  --warning-foreground: 20 14% 12%;
+
+  --border: 20 12% 20%;
+  --input: 20 12% 20%;
+  --ring: 38 92% 50%;
+
+  --radius: 0.75rem;
+  --sidebar-width: 16rem;
+}

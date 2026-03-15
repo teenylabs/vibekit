@@ -1,15 +1,20 @@
 {
   "name": "teenylabs-vibekit",
-  "description": "Design system skill for Claude Code — stops AI from generating inconsistent UI",
+  "owner": {
+    "name": "TeenyLabs",
+    "url": "https://teenylabs.com"
+  },
   "plugins": [
     {
       "name": "vibekit",
-      "description": "Design system initialization and enforcement for vibe-coded apps",
-      "source": ".",
+      "description": "Design system initialization and enforcement for vibe-coded apps. Stops Claude Code from generating inconsistent UI on every prompt.",
       "version": "1.0.0",
-      "author": "TeenyLabs",
-      "skills": ["skills/vibekit"],
-      "strict": false
+      "source": {
+        "type": "github",
+        "repo": "teenylabs/vibekit"
+      },
+      "category": "design",
+      "tags": ["design-system", "vibe-coding", "ui", "claude-code"]
     }
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "name": "vibekit",
+  "version": "1.0.0",
+  "description": "Design system initialization and enforcement for vibe-coded apps. Stops Claude Code from generating inconsistent UI on every prompt.",
+  "author": "TeenyLabs",
+  "license": "MIT",
+  "skills": ["skills/vibekit"]
+}

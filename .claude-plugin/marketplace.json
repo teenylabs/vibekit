@@ -4,7 +4,7 @@
   "description": "Design system skill for Claude Code — stops AI from generating inconsistent UI across your vibe-coded app",
   "owner": {
     "name": "TeenyLabs",
-    "email": "shalini@teenylabs.com"
+    "email": "hello@teenylabs.com"
   },
   "plugins": [
     {
@@ -13,9 +13,13 @@
       "version": "1.0.0",
       "author": {
         "name": "TeenyLabs",
-        "email": "shalini@teenylabs.com"
+        "email": "hello@teenylabs.com"
       },
-      "source": ".",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/teenylabs/vibekit.git"
+      },
+      "homepage": "https://github.com/teenylabs/vibekit",
       "category": "design",
       "strict": false
     }

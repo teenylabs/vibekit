@@ -5,14 +5,6 @@
 The #1 problem with AI-generated UIs: every prompt produces slightly different styling. VibeKit fixes that by creating a `design-system.md` that Claude Code reads before writing any UI code — so your colors, fonts, spacing, and components stay consistent across every session.
 
 ## Install
-cat > README.md << 'EOF'
-# VibeKit
-
-**A Claude Code skill that gives your vibe-coded app a consistent design system.**
-
-The #1 problem with AI-generated UIs: every prompt produces slightly different styling. VibeKit fixes that by creating a `design-system.md` that Claude Code reads before writing any UI code — so your colors, fonts, spacing, and components stay consistent across every session.
-
-## Install
 ```
 /plugin marketplace add teenylabs/vibekit
 ```
